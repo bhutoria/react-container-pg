@@ -2,16 +2,14 @@
 
 # dependencies
 /node_modules
+code/node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
 
-# testing
-/coverage
+.gitignore
 
-# next.js
-/.next/
-/out/
+/dist
 
 # production
 /build
@@ -22,16 +20,7 @@
 
 # debug
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # local env files
 .env*.local
 .env
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
